@@ -1,1 +1,2 @@
-This is the Front-End aspect of the project.
+This is a project that helps with....
+
