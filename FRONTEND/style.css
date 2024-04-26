@@ -26,7 +26,7 @@
 .contact{
     color: white;
     text-decoration: none;
-    background-color: rgb(217, 217, 217);
+    background-color: rgb(174, 174, 174);
     padding:1rem;
     border-radius: 10px 10px 10px 10px;
 }
@@ -42,14 +42,22 @@
 }
 .name_of_solution{
     margin-top:5rem;
+    font-weight: 900;
+    color: rgb(0, 116, 217);
 }
 .about_solution{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .name-box{
     margin-left: 3rem;
     font-size: 30px;
     width: 50%;
+}
+.image-box{
+    width: 50%;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 7rem;
 }
 .get_started{
     color:rgb(0,116,217);
@@ -59,7 +67,7 @@
     background-color: rgba(255, 255, 255, 0.371);
     text-decoration: none;
     justify-content: space-evenly;
-    margin-top: 4rem;
+    margin-top: 6rem;
     font-size: 3rem;
 }
 .container2{
@@ -67,40 +75,129 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .container3{
     text-align: center;
     margin-top: 2rem;
 }
 .container4{
-        
-    justify-content: center;
-    
+    width:100% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around   ;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    position: absolute;
 }
 .container4_2{
     justify-content: center;
     margin-top: -700px;
     padding-top: -700px;
 }
-.division{
+.divisions{
     background-color: rgb(0, 116, 217);
     border-radius: 20px;
-    width: 10%;
+    width: 17%;
     height: 250px;
-    
-    justify-content: center;
+    justify-content:space-around;
     text-align: center;
     
 }
-.division1{
+.divisions img{
+    padding-top: 2rem;
+}
+.divisions1{
     background-color: rgb(0, 116, 217);
     border-radius: 20px;
-   width: 10%;
+    width: 17%;
     height: 250px;
-    justify-content: center;
+    justify-content:space-around;
     text-align: center;
-    width: 10%;
-    
+    /* margin-left: rem; */
+}
+.divisions1 img{
+    padding-top: 2rem;
+}
+.divisions2{
+    background-color: rgb(0, 116, 217);
+    border-radius: 20px;
+    width: 17%;
+    height: 250px;
+    justify-content:space-around;
+    text-align: center;
+    /* margin-left: -1rem; */
+}
+.divisions2 img{
+    padding-top: 3rem;
+}
+.divisions3{
+    background-color: rgb(0, 116, 217);
+    border-radius: 20px;
+    width: 17%;
+    height: 250px;
+    justify-content:space-around;
+    text-align: center;
+    margin-left: 1rem;
+}
+.divisions3 img{
+    padding-top: 2rem;
+}
+.effect{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+.effect1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(217, 217, 217);
+    height: 30vh;
+    border-radius: 10px 10px 10px 10px;
+}
+.effect1 p{
+    margin-top: 5rem;
+    padding: 0.5rem;
+}
+.effect2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(217, 217, 217);
+    height: 30vh;
+    border-radius: 10px 10px 10px 10px;
+}
+.effect2 p{
+    margin-top: 5rem;
+    padding: 0.5rem;
+}
+.effect3{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(217, 217, 217);
+    height: 30vh;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+.effect3 p{
+    margin-top: 5rem;
+    padding: 0.5rem;
+}
+.effect4{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(217, 217, 217);
+    height: 30vh;
+    border-radius: 10px 10px 10px 10px;
+}
+.effect4 p{
+    margin-top: 5rem;
+    padding: 0.5rem;
 }
 .division11{
     background-color: rgb(208, 225, 241);
@@ -115,22 +212,19 @@
     padding-top: -700px; }
     
 .division_2{
-        background-color:  rgb(208, 225, 241);
-        border-radius: 20px;
-        height: 250px;
-        justify-content: center;
-        text-align: center;
-        
-    
+    background-color:  rgb(208, 225, 241);
+    border-radius: 20px;
+    height: 250px;
+    justify-content: center;
+    text-align: center; 
 }
- 
 .divisionText{
     font-size: 20px;
     color: white;
     text-align: center;
     justify-items: center;
     justify-content: center;
-    padding-top: 120px;
+    padding-top: 10px;
     font-weight: bold;
 }
 .div1{
@@ -150,4 +244,79 @@
     flex-direction: column;
     background-color: rgb(0, 116, 217);
     height: 25vh;
+}
+.container5{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contact1{
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 800;
+}
+.contacts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+}
+.fa-map-marker{
+    color: black;
+    font-weight: 900;
+    margin-top: 4px;
+}
+.address{
+    font-weight: 900;
+    margin-left:1rem ;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+}
+.fa-phone{
+    color: black;
+    font-weight: 900;
+    margin-top: 4px;
+}
+.phone_number{
+    font-weight: 900;
+    margin-left:0.5rem ;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+}
+.fa-envelope{
+    color: black;
+    font-weight: 900;
+    margin-top: 4px;
+}
+.email-address{
+    font-weight: 900;
+    margin-left:1rem ; 
+}
+footer{
+    background-color:rgb(217, 217, 217);
+    width: 100%;
+    height:10vh;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 900;
+    padding-top:2rem ;
+}
+.fa-copyright{
+    color: black;
+    font-weight: 900 !important;
+    margin-top: 4px;
+}
+.something{
+    margin-left: 0.5rem;
 }
